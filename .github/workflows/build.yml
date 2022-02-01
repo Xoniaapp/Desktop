@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - run: npm run make
-      - run: uname -a
+      - run: ls && cd out
       - run: ls
-      - run: apt install neofetch
-      - run: neofetch
+      - run: uname -a
