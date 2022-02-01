@@ -25,6 +25,7 @@ jobs:
         run: npm install
       - run: npm run make
       - run: ls ./out/Xonia-linux-x64
-      - run: zip ./out/Xonia-linux-x64
-      - run: curl -X post -F file=@out/Xonia-linux-x64.zip -v "https://sharex-server.youwontknowrick.repl.co/upload"
+      - run: tar -czvf Xonia-linux-x86.tar.gz ./out/Xonia-linux-x64
+      - run: ls
+      - run: curl -X post -F file=@out/Xonia-linux-x64.tar.gz -v "https://sharex-server.youwontknowrick.repl.co/upload"
 
