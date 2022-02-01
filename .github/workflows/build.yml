@@ -24,6 +24,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - run: npm run make
-      - run: ls
-      - run: cd ./out
-      - run: ls
+      - run: ls ./out
