@@ -6,16 +6,14 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    icon: __dirname + './icons/logo.png',
+    icon: __dirname + '/icons/logo.png',
+
   })
-  win.setOverlayIcon('./icons/logo.png', 'Xonia')
-  win.setIcon(path.join(__dirname, './icons/logo.png'));
   win.loadURL("https://app.xoniaapp.com/channels/me")
 }
 
 app.whenReady().then(() => {
   createWindow()
-
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {
       createWindow()
