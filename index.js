@@ -7,7 +7,7 @@ function createWindow() {
     width: 800,
     height: 600,
     icon: __dirname + '/icons/logo.png',
-
+    autoHideMenuBar: true,
   })
   win.loadURL("https://app.xoniaapp.com/channels/me")
 }
