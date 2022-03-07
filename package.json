@@ -55,7 +55,7 @@
           "config": {
             "repository": {
               "owner": "xoniaapp",
-              "name": "electron-publish-example"
+              "name": "desktop"
             }
           }
         }
