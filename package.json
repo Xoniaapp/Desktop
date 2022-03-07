@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
+    "publish": "electron-forge publish",
     "make": "electron-forge make"
   },
   "keywords": [],
