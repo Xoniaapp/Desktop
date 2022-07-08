@@ -1,0 +1,7 @@
+{
+    "API_ENDPOINT":"https://gateway.xoniaapp.com",
+    "WS_ENDPOINT":"wss://gateway.xoniaapp.com",
+    "WEBAPP_ENDPOINT":"https://app.xoniaapp.com",
+    "AWS_S3_ENDPOINT":"https://s3.eu-west-2.amazonaws.com",
+    "AWS_S3_BUCKET":"xoniacdn"
+}
